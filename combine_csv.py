@@ -73,6 +73,7 @@ def main():
     )
 
     # Write output csv to output directory.
+    print("\n***CSVs combined - check output folder***")
     combined_df.to_csv(final_path)
 
 
